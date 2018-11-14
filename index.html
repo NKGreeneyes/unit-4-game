@@ -5,21 +5,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>The Crystal Collector</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="/assets/css/style.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="/assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
+    <link href="https://fonts.googleapis.com/css?family=Allerta+Stencil" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=KoHo" rel="stylesheet">
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="assets/javascript/game.js"></script>
+
 </head>
 
 <body>
-    <h1 id = "header"></h1>
-    <div></div>
-    <p id = "instructions"></p>
-    <div id = "gameBox"></div>
-    <div id = "scoresBox"></div>
-    <div id = "imgBox"></div>
-    <div id = "textBox"></div>
-    <div id = "totalBox"></div>
+    
+    <div id = "body">
 
-</body>
-</html>
+        <h1 id = "header">The Crystal Collector Game</h1>
+
+        <p id = "instructions">You will be given a random number at the start of the game.
+
+                There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.
+                
+                You will win by matching your total score with the random number score displayed above be careful not to go above the random number score because this will result in a loss. 
+                The value of each crystal in hidden from you until you click on it and find out.
+                
+                Each time the game starts, the values of the crystals will change.
+                
+                Happy Collecting!  </p>
+
+                
+                <section id = "section">
+                    
+                    <div id = "gameBox"></div>
+                    
+                    <div id = "scoresBox"> Wins:    Losses:
+                    </div>
+                    
+                    <div id = "totalBox"></div>
+                    
+                </section>
+                
+                <div id = "imgBox">
+
+                        <img src="assets/images/blue.png" id = "gb" alt="Blue Gem">
+                        <img src="assets/images/green.png" id = "gg" alt="Green Gem">
+                        <img src="assets/images/red.png" id = "gr" alt="Red Gem">
+                        <img src="assets/images/yellow.png" id = "gy" alt="Yellow Gem">
+
+                </div>
+                
+            </div>
+        </body>
+        </html>

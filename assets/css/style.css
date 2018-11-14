@@ -1,0 +1,216 @@
+
+/* <h1 id = "header"></h1>
+<div></div>
+<p id = "instructions"></p>
+<div id = "gameBox"></div>
+<div id = "scoresBox"></div>
+<div id = "imgBox"></div>
+<div id = "textBox"></div>
+<div id = "totalBox"></div> */
+
+*{
+    
+    color: teal;
+    text-align: center; 
+    box-sizing: border-box;
+    
+}
+
+#body{
+
+    background: black;
+    padding: 25px;
+    height: 1080px;
+    width: 960px;
+}
+
+#header {
+
+    /* text customization */
+    font-family: 'Allerta Stencil', sans-serif;
+    font-size: 50px;
+    
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 15px;
+    padding: 20px; 
+    
+    border: solid;
+    border-radius: 25px;
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-top-width: 5px;
+    border-bottom-width: 5px;
+    border-top-color: blue;
+    border-right-color: green;
+    border-bottom-color: red;
+    border-left-color: yellow;
+    background: aquamarine;
+    
+}
+
+#instructions{
+
+    font-family: 'KoHo', sans-serif;
+    font-size: 25px;
+    text-align: left; 
+
+
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 20px;
+
+    border: solid;
+    border-radius: 25px;
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-top-width: 5px;
+    border-bottom-width: 5px;
+    border-top-color: blue;
+    border-right-color: green;
+    border-bottom-color: red;
+    border-left-color: yellow;
+    background: aquamarine;
+
+}
+
+#section{
+    box-align: center;
+    margin-top: 15px;
+    margin-right: 30%;
+    margin-bottom: 15px;
+
+}
+
+#gameBox{
+
+    float: right;
+
+    padding: 20px;
+    margin-right: 25px; 
+
+    border: solid;
+    border-radius: 25px;
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-top-width: 5px;
+    border-bottom-width: 5px;
+    border-top-color: blue;
+    border-right-color: green;
+    border-bottom-color: red;
+    border-left-color: yellow;
+    background: aquamarine;
+
+}
+
+#scoresBox{
+
+    float: right;
+
+    padding: 20px;
+    margin-right: 25px; 
+
+    border: solid;
+    border-radius: 25px;
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-top-width: 5px;
+    border-bottom-width: 5px;
+    border-top-color: blue;
+    border-right-color: green;
+    border-bottom-color: red;
+    border-left-color: yellow;
+    background: aquamarine;
+
+}
+
+
+#totalBox{
+    
+    float: right;
+    
+    
+    padding: 20px;
+    margin-right: 25px;
+    
+    border: solid;
+    border-radius: 25px;
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-top-width: 5px;
+    border-bottom-width: 5px;
+    border-top-color: blue;
+    border-right-color: green;
+    border-bottom-color: red;
+    border-left-color: yellow;
+    background: aquamarine;
+
+}
+    #imgBox{
+    
+        float: right;
+        margin-left: 25%;
+        margin-right: 25%;
+        padding-top: 20px;
+        
+    }
+
+    #gb{
+        
+        margin-right: 25px;
+        
+        border: solid;
+        border-radius: 25px;
+        border-left-width: 10px;
+        border-right-width: 10px;
+        border-top-width: 5px;
+        border-bottom-width: 5px;
+        border-color: blue;
+        background: aquamarine;
+
+    }
+
+    #gr{
+        
+        margin-right: 25px;
+        
+        border: solid;
+        border-radius: 25px;
+        border-left-width: 10px;
+        border-right-width: 10px;
+        border-top-width: 5px;
+        border-bottom-width: 5px;
+        border-color: red; 
+        background: aquamarine;
+
+    }
+
+    #gg{
+
+    margin-right: 25px;
+    
+    border: solid;
+    border-radius: 25px;
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-top-width: 5px;
+    border-bottom-width: 5px;
+    border-color: green;
+    background: aquamarine;
+
+    }
+
+    #gy{
+
+    margin-right: 25px;
+    
+    border: solid;
+    border-radius: 25px;
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-top-width: 5px;
+    border-bottom-width: 5px;
+    border-color: yellow;
+    background: aquamarine;
+
+    }
